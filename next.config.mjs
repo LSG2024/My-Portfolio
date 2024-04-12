@@ -11,7 +11,10 @@ const nextConfigProd = {
   basePath: '/portfolio',
   images: {
     loader: 'custom',
-    loaderFile: './src/lib/image.loader.js',
+    loaderOptions: {
+      outputPath: 'public/images', // Adjust the output path as needed
+      publicPath: '/_next/images',
+    },
   },
 };
 
