@@ -55,7 +55,7 @@ export default function Home() {
         />
         <SkillsWidget
         title={'Skills'}
-        content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.'}
+        content={'Skills I gained through time and effort.'}
         skills={skills}
       />
         
