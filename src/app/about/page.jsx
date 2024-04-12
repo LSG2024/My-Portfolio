@@ -3,6 +3,10 @@ import { Roboto } from "next/font/google";
 import styles from "./page2.css"
 import "../globals.css";
 
+export const metadata = {
+  title: 'Portfolio - About',
+  description: 'The projects page of my portfolio.',
+}
 
 
 export default function Home() {

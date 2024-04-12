@@ -1,0 +1,57 @@
+.project-card {
+    border: 1px solid #f6f3f3;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    text-align: center;
+    position: relative;
+    margin-top: 20x;
+  }
+  
+  .project-icon {
+    font-size: 3rem;
+    margin-bottom: 8px;
+  }
+  .project-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    margin: 4px 20px 4px 110px;
+  }
+  
+  .project-name {
+    font-size: 1.5rem;
+    color: #f7f4f4;
+    margin: 8px 0;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #fdfbfb;
+    margin-bottom: 16px;
+  }
+  
+  .project-link {
+    color: #068338;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 16px;
+    display: inline-block;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+  .project-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  

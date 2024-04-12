@@ -4,6 +4,12 @@ import global from "./globals.css"
 import WorkWidget from "../components/WorkWidget/WorkWidget"
 import SkillsWidget from "../components/SkillsWidget/SkillsWidget"
 
+export const metadata = {
+  title: 'Portfolio - Home',
+  description: 'The projects page of my portfolio.',
+}
+
+
 const skills = [
   { name: 'Microsoft', proficiency: 60, icon: 'microsoft.png' },
   { name: 'Java', proficiency: 50, icon: 'Java.png' },
