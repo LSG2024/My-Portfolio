@@ -33,13 +33,13 @@
     font-weight: 600;
     padding: 6px 15px;
     box-shadow: 0 0 4px 0 rgba(rgb(243, 240, 240), rgb(94, 92, 92), rgb(66, 66, 67), alpha);
+    margin-bottom: 50px;
 }
 .myImg {
     width: 30%;
-    z-index: 1;
-   
-    margin-top: 12px;
-    margin-right: 100px;
-    border-radius: 45%;
+    z-index: 1;  
+    margin-top: -30%;
+    margin-right: 150px;
+    border-radius: 90px;
 
 }
